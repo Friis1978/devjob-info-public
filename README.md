@@ -80,11 +80,13 @@ One click fetches the company's public site (homepage, About, Engineering/Blog),
 
 ### AI cover letter
 
-One click generates a personalised cover letter from your profile, the full job description, and the company research dossier — always written in the job posting's detected language. Every letter is automatically checked against a simulated ATS review, and run through an AI-detection + rewrite pass so sentences that read as machine-generated get smoothed out before saving. Download as PDF (compact or detailed) or copy as plain text.
+One click generates a personalised cover letter from your profile, a **snippet library** of your own reusable paragraphs, the full job description, and the company research dossier — always written in the job posting's detected language, an absolute rule that overrides even your own custom instructions. The snippet library grows itself: whenever a job is marked Applied, an AI pass extracts new reusable snippets from the letter you actually sent. A short, brand-colored **headline** is generated above the letter body after the main text is written, so it reflects what the letter actually says.
+
+Every letter is automatically checked against a simulated ATS review — **regenerating** it pulls in any unresolved findings so the new draft actively addresses them, and a manual save re-runs the review too. Letters also run through an AI-detection + rewrite pass so sentences that read as machine-generated get smoothed out before saving. Download as PDF (compact or detailed) or copy as plain text.
 
 ### Tailored resume
 
-Generate a job-specific resume PDF in one click, pulling from your full profile and your best past cover letters as a style reference — plus an on-demand motivation paragraph for the role. Three templates: **Classic** (single column), **Sidebar** (dark left column, default), and **ATS Ready** (a deliberately separate, minimal document with everything a parser has no use for stripped out). Every AI-written section stays fully editable, and edits survive regeneration.
+Generate a job-specific resume PDF in one click, pulling from your full profile and cover letter snippet library as a style reference — plus an on-demand motivation paragraph for the role, which you can steer with feedback on regeneration. Three templates: **Classic** (single column), **Sidebar** (dark left column, default), and **ATS Ready** (a deliberately separate, minimal document with everything a parser has no use for stripped out). Every AI-written section stays fully editable, and edits survive regeneration. Named instruction presets (with a freeform mode) let you fully control the AI's output structure for the cover letter, resume profile, and motivation paragraph.
 
 ### ATS review
 
@@ -115,7 +117,7 @@ Import your LinkedIn connections CSV once. For every job, the AI lists connectio
 
 ### Dashboard and light/dark theme
 
-Application pipeline status, jobs added over time, match score distribution, company research activity, a live activity feed, and a 14-day AI token usage chart — all backed by PostHog. The whole app supports light and dark mode as a design-token override, following the OS preference on first visit and remembered afterward.
+Application pipeline status, jobs added over time, match score distribution, company research activity, a live activity feed, a 14-day AI token usage chart, and your average weekly AI spend — all backed by PostHog. The whole app supports light and dark mode as a design-token override, following the OS preference on first visit and remembered afterward.
 
 <a href="page-images/dashboard-hero.jpeg"><img src="page-images/dashboard-hero.jpeg" width="640" alt="Dashboard in dark mode" /></a>
 
@@ -153,8 +155,10 @@ An admin-only **AI Provider Compliance Audit** runs all 18 features against a re
 | AI scoring | Scores 0–100 with matched + missing skills per job |
 | Company research | HTTP fetch + web search + AI → structured dossier with interview prep |
 | Company brand theming | Scrapes accent color + font category from the company site; themes the cover letter and resume PDFs |
-| Cover letter | AI-written, language-detected, automatic ATS review, PDF + plain text |
+| Cover letter | AI-written, language-detected (absolute rule), snippet-library-driven, AI-generated headline, automatic ATS review, PDF + plain text |
+| ATS-aware regeneration | Regenerating a cover letter addresses unresolved ATS findings; manual saves re-run the review too |
 | Tailored resume | AI generates a job-specific PDF per role, in three selectable templates |
+| Instruction presets | Named, saveable AI instructions for cover letter, resume profile, and motivation — freeform mode when customized |
 | ATS review | 5-way provider choice (all can read PDFs); findings shown per-document, no auto-apply |
 | Fully editable resume | Every AI-written section is editable before download and survives regeneration |
 | Resume localization | All section headings — not just AI prose — translated into the job posting's detected language |
