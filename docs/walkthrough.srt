@@ -1,60 +1,68 @@
 1
-00:00:01,000 --> 00:00:08,270
+00:00:01,000 --> 00:00:04,930
 Job hunting is the same work, over and over. DevJobInfo takes that part off your hands.
 
 2
-00:00:09,270 --> 00:00:15,820
+00:00:05,930 --> 00:00:11,900
 Everything lands on one dashboard — jobs found, your match rate, and where every application stands.
 
 3
-00:00:16,820 --> 00:00:21,310
-Plus how your match scores are spread, so you know you're aiming at the right roles.
+00:00:12,900 --> 00:00:17,510
+Plus how your match scores are spread, and your weekly AI spend, so you always know where things stand.
 
 4
-00:00:22,310 --> 00:00:27,120
+00:00:18,510 --> 00:00:22,780
 It all rests on your profile. Drop in your CV, and it fills itself in.
 
 5
-00:00:28,120 --> 00:00:32,630
+00:00:23,780 --> 00:00:28,640
 Search five job boards at once — or paste a job URL straight in.
 
 6
-00:00:33,630 --> 00:00:43,670
+00:00:29,640 --> 00:00:38,340
 Every job is scored against your profile. And a thin posting gets capped, never oversold — so you know exactly which ones are worth your time.
 
 7
-00:00:44,670 --> 00:00:53,680
+00:00:39,340 --> 00:00:45,650
 Behind the scenes, DevJobInfo researches the company — and pulls its actual colors and fonts into your materials, so everything looks like it belongs there.
 
 8
-00:00:54,680 --> 00:00:59,830
-Then a cover letter, written from your real history, in the language of the posting.
+00:00:46,650 --> 00:00:53,560
+Then a cover letter, written from your real history, in the language of the posting — drawing on your own saved snippets and past letters.
 
 9
-00:01:00,830 --> 00:01:04,570
-Nothing invented — only what's actually in your profile.
+00:00:54,560 --> 00:00:58,060
+A short, AI-written headline tops it off — one click to regenerate it on its own.
 
 10
-00:01:05,570 --> 00:01:15,340
-And because it's AI-written, we run it through an AI-detector — then rewrite anything that sounds too robotic, until it sounds like you again.
+00:00:59,060 --> 00:01:01,450
+Nothing invented — only what's actually in your profile.
 
 11
-00:01:16,340 --> 00:01:27,990
-Before you send anything, we simulate how an Applicant Tracking System actually reads it — resume and cover letter both — so nothing gets lost to a bot before a person ever sees it.
+00:01:02,450 --> 00:01:07,570
+And because it's AI-written, we run it through an AI-detector — then rewrite anything that sounds too robotic, until it sounds like you again.
 
 12
-00:01:28,990 --> 00:01:34,390
-Add your own motivation for the role, so it never reads like it was written by a bot.
+00:01:08,570 --> 00:01:22,140
+Before you send anything, we simulate how an Applicant Tracking System actually reads it — resume and cover letter both — so nothing gets lost to a bot before a person ever sees it. Regenerate the letter and it automatically fixes what the review flagged.
 
 13
-00:01:35,390 --> 00:01:44,680
-And a resume tailored to this job, reordered around what this employer asked for — including a version built specifically to pass ATS parsing.
+00:01:23,140 --> 00:01:29,800
+Add your own motivation for the role, so it never reads like it was written by a bot.
 
 14
-00:01:45,680 --> 00:01:51,680
-Both download as polished PDFs, ready to send the moment you find the job.
+00:01:30,800 --> 00:01:40,190
+And a resume tailored to this job, reordered around what this employer asked for — including a version built specifically to pass ATS parsing.
 
 15
-00:01:52,680 --> 00:01:57,030
+00:01:41,190 --> 00:01:45,030
+Both download as polished PDFs, ready to send the moment you find the job.
+
+16
+00:01:46,030 --> 00:01:52,770
+Every AI feature runs on your own key — Claude, Mistral, OpenAI, Grok, or Gemini, whichever you choose — so there's no subscription, and you're never locked to one provider.
+
+17
+00:01:53,770 --> 00:01:55,280
 DevJobInfo — devjob dot info.
 

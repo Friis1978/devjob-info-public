@@ -30,8 +30,8 @@ what it speaks (the bracket tags below are direction, not spoken).
 
 **Delivery:** bright and energetic, like showing a friend something you are
 pleased with — the bracket cues carry the arc (frustration → relief → confidence,
-`[sincere]` on the integrity line, `[reassuring]` on the ATS line). 15 lines over
-~90 seconds; some silence between lines is expected and fine.
+`[sincere]` on the integrity line, `[reassuring]` on the ATS line). 17 lines over
+~2 minutes; some silence between lines is expected and fine.
 
 Timecodes below are **targets**, not yet measured — they'll be corrected to the
 real recording's boundaries the same way the previous version was (word-count
@@ -44,7 +44,7 @@ script is actually recorded.
 >
 > **[confident]** Everything lands on one dashboard — jobs found, your match rate, and where every application stands.
 >
-> **[confident]** Plus how your match scores are spread, so you know you're aiming at the right roles.
+> **[confident]** Plus how your match scores are spread, and your weekly AI spend, so you always know where things stand.
 >
 > **[knowing]** It all rests on your profile. Drop in your CV, and it fills itself in.
 >
@@ -54,19 +54,23 @@ script is actually recorded.
 >
 > **[impressed]** Behind the scenes, DevJobInfo researches the company — and pulls its actual colors and fonts into your materials, so everything looks like it belongs there.
 >
-> **[confident]** Then a cover letter, written from your real history, in the language of the posting.
+> **[confident]** Then a cover letter, written from your real history, in the language of the posting — drawing on your own saved snippets and past letters.
+>
+> **[confident]** A short, AI-written headline tops it off — one click to regenerate it on its own.
 >
 > **[sincere]** Nothing invented — only what's actually in your profile.
 >
 > **[sincere]** And because it's AI-written, we run it through an AI-detector — then rewrite anything that sounds too robotic, until it sounds like you again.
 >
-> **[reassuring]** Before you send anything, we simulate how an Applicant Tracking System actually reads it — resume and cover letter both — so nothing gets lost to a bot before a person ever sees it.
+> **[reassuring]** Before you send anything, we simulate how an Applicant Tracking System actually reads it — resume and cover letter both — so nothing gets lost to a bot before a person ever sees it. Regenerate the letter and it automatically fixes what the review flagged.
 >
 > **[confident]** Add your own motivation for the role, so it never reads like it was written by a bot.
 >
 > **[confident]** And a resume tailored to this job, reordered around what this employer asked for — including a version built specifically to pass ATS parsing.
 >
 > **[confident]** Both download as polished PDFs, ready to send the moment you find the job.
+>
+> **[confident]** Every AI feature runs on your own key — Claude, Mistral, OpenAI, Grok, or Gemini, whichever you choose — so there's no subscription, and you're never locked to one provider.
 >
 > **[warm]** DevJobInfo — devjob dot info.
 
@@ -83,6 +87,21 @@ script is actually recorded.
   rewrite line, and the ATS-simulation line — matching what the short promo
   video (`devjob-promo.mp4`) already covers, so both videos now tell a
   consistent, complete story.
+- **New in this revision (2026-08-25)**: 4 more shipped-but-unnarrated
+  features folded into the existing lines with minimal added runtime:
+  the dashboard line now mentions weekly AI spend alongside match rate; the
+  cover-letter line now mentions it draws on your own saved snippets and past
+  letters (the "Cover Letter Building Blocks" profile section); a new short
+  line right after covers the AI-written headline and its standalone
+  Regenerate button; and the ATS-simulation line now closes with "regenerate
+  the letter and it automatically fixes what the review flagged." No new
+  scenes/navigation were added — everything narrates content already on
+  screen during the existing cover-letter/ATS cues. A 5th, business-model-
+  level line was folded in at the same time (not part of the original 4):
+  the multi-provider BYOK system (Claude/Mistral/OpenAI/Grok/Gemini, your
+  own key, no app billing) had never been narrated at all despite predating
+  this revision — added as a short standalone line just before the outro,
+  caption-only over the still-open job detail page rather than a new scene.
 - To re-record, generate the whole script above as **one continuous take** in
   AI Studio's Generate Speech (voice Iapetus, `gemini-3.1-flash-tts-preview`),
   the bracket tags steer delivery and are not spoken. Once you have the file,
