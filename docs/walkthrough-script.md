@@ -30,7 +30,7 @@ what it speaks (the bracket tags below are direction, not spoken).
 
 **Delivery:** bright and energetic, like showing a friend something you are
 pleased with — the bracket cues carry the arc (frustration → relief → confidence,
-`[sincere]` on the integrity line, `[reassuring]` on the ATS line). 17 lines over
+`[sincere]` on the integrity line, `[reassuring]` on the ATS line). 18 lines over
 ~2 minutes; some silence between lines is expected and fine.
 
 Timecodes below are **targets**, not yet measured — they'll be corrected to the
@@ -49,6 +49,8 @@ script is actually recorded.
 > **[knowing]** It all rests on your profile. Drop in your CV, and it fills itself in.
 >
 > **[confident]** Search five job boards at once — or paste a job URL straight in.
+>
+> **[practical]** Or save it in one click, straight from the tab you're already on — the Chrome extension adds any job posting to your pipeline without ever leaving the page.
 >
 > **[confident]** Every job is scored against your profile. And a thin posting gets capped, never oversold — so you know exactly which ones are worth your time.
 >
@@ -70,7 +72,7 @@ script is actually recorded.
 >
 > **[confident]** Both download as polished PDFs, ready to send the moment you find the job.
 >
-> **[confident]** Every AI feature runs on your own key — Claude, Mistral, OpenAI, Grok, or Gemini, whichever you choose — so there's no subscription, and you're never locked to one provider.
+> **[confident]** Every one of eighteen AI features runs on your own key — pick Gemini, Claude, Mistral, OpenAI, or Grok per feature, or let one click set each to whichever's cheapest — so there's no subscription, and you're never locked to one provider.
 >
 > **[warm]** DevJobInfo — devjob dot info.
 
@@ -102,6 +104,21 @@ script is actually recorded.
   own key, no app billing) had never been narrated at all despite predating
   this revision — added as a short standalone line just before the outro,
   caption-only over the still-open job detail page rather than a new scene.
+- **New in this revision (2026-08-30)**: a new standalone line for the Chrome
+  extension, right after the "search five job boards" line — it's a
+  complementary import path (save the job you're already viewing, in one
+  click, no URL copy/paste), so it earns its own beat rather than folding
+  into an existing one; it also gets a **new dedicated capture** (the
+  extension popup actually importing a job), not just a caption over an
+  existing scene — see `e2e/videos/capture-extension-demo.spec.ts` (new).
+  Also **corrected a factual error**: the closing multi-provider line
+  previously implied nothing about which provider is used by default or how
+  selection works; it now correctly states Gemini/Claude/Mistral/OpenAI/Grok
+  are chosen **per feature** (not just "whichever you choose" for the whole
+  app) and mentions the one-click "cheapest for everything" option — Gemini
+  is the actual current default, not Claude, and this is genuinely new
+  functionality (per-feature provider assignment + one-click cost
+  optimization) that predates this revision but was never narrated.
 - To re-record, generate the whole script above as **one continuous take** in
   AI Studio's Generate Speech (voice Iapetus, `gemini-3.1-flash-tts-preview`),
   the bracket tags steer delivery and are not spoken. Once you have the file,

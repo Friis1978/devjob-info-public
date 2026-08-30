@@ -12,7 +12,7 @@ This is the public showcase for the project — README, architecture notes, walk
 
 <a href="https://friis1978.github.io/devjob-info-public/walkthrough-voiced.mp4"><img src="docs/walkthrough-thumb.jpg" alt="DevJobInfo walkthrough" width="640" /></a>
 
-Click the thumbnail to watch the ~147-second narrated tour — dashboard, profile, job search and match breakdown, company research with brand-matched theming, a cover letter (built from your own saved snippets, with an AI-written headline, an AI-detection rewrite, and ATS-aware regeneration) and an ATS-reviewed tailored resume, generated live against a real posting. Every AI feature runs on your own API key — no subscription, no lock-in to one provider.
+Click the thumbnail to watch the ~147-second narrated tour — dashboard, profile, job search and match breakdown, the Chrome extension saving a job in one click, company research with brand-matched theming, a cover letter (built from your own saved snippets, with an AI-written headline, an AI-detection rewrite, and ATS-aware regeneration) and an ATS-reviewed tailored resume, generated live against a real posting. Every AI feature runs on your own API key — no subscription, no lock-in to one provider.
 
 Recorded with Playwright against a seeded demo account, never a real one.
 
@@ -123,7 +123,7 @@ Application pipeline status, jobs added over time, match score distribution, com
 
 ### Bring your own AI key
 
-The app has no billing of its own. Every AI feature runs on the user's own key for whichever provider they've chosen — **Claude**, **Mistral**, **OpenAI**, **Grok**, or **Gemini** — with Claude as the default for everything except ATS review (Gemini). Keys are:
+The app has no billing of its own. Every AI feature runs on the user's own key for whichever provider they've chosen — **Claude**, **Mistral**, **OpenAI**, **Grok**, or **Gemini** — with Gemini as the default for every feature, switchable per feature, plus a one-click "cheapest for everything" option. Keys are:
 
 - stored one-per-provider, never on the main profile row
 - encrypted with **AES-256-GCM** before reaching the database
@@ -136,9 +136,9 @@ The app has no billing of its own. Every AI feature runs on the user's own key f
 
 ## Multi-provider AI architecture
 
-Every AI feature is provider-agnostic. Each of 18 distinct AI features has its own provider preference, chosen independently in Settings, with Claude as the default everywhere except ATS review (which needs a provider that reads PDFs directly, so Gemini is the default there).
+Every AI feature is provider-agnostic. Each of 18 distinct AI features has its own provider preference, chosen independently in Settings, defaulting to Gemini everywhere — switch any feature to Claude, Mistral, OpenAI, or Grok, or use the "cheapest for everything" button to set every feature to the lowest-cost, compliance-audit-verified provider available for it.
 
-Every call site resolves its feature's provider, then routes through a single dispatcher that normalises all five providers' responses to one shape — downstream code never branches on which provider actually ran. Two tiers within Claude's own lineup: **Sonnet 5** for judgement and writing (scoring, cover letters, resumes, research), **Haiku 4.5** for mechanical work where the answer is already in the input (summaries, translation, targeted rewrites).
+Every call site resolves its feature's provider, then routes through a single dispatcher that normalises all five providers' responses to one shape — downstream code never branches on which provider actually ran. Two tiers within Claude's own lineup (shown here as an example): **Sonnet 5** for judgement and writing (scoring, cover letters, resumes, research), **Haiku 4.5** for mechanical work where the answer is already in the input (summaries, translation, targeted rewrites).
 
 If a call to the resolved provider fails for any reason — bad key, rate limit, outage — it retries once against Gemini (if the user has a Gemini key configured) before giving up, so no single provider going down blocks the feature.
 
@@ -163,6 +163,7 @@ An admin-only **AI Provider Compliance Audit** runs all 18 features against a re
 | Fully editable resume | Every AI-written section is editable before download and survives regeneration |
 | Resume localization | All section headings — not just AI prose — translated into the job posting's detected language |
 | Resume extraction | Upload an existing PDF — AI pre-fills your entire profile |
+| Chrome extension | Save the job posting on your current tab to your pipeline in one click, no copy-pasting a URL |
 | Network intelligence | LinkedIn connection import, AI contact selection, message generation |
 | Application tracking | New → Saved → Applied → Interviewing → Offer, plus Rejected / Rejected-after-interview / No fit |
 | Pipeline metrics | Mutually-exclusive funnel: applications sent, interview rate, ghost rate — each with a calculation tooltip |

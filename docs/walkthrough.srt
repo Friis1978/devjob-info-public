@@ -1,68 +1,72 @@
 1
-00:00:01,000 --> 00:00:08,070
+00:00:00,000 --> 00:00:06,670
 Job hunting is the same work, over and over. DevJobInfo takes that part off your hands.
 
 2
-00:00:09,070 --> 00:00:16,180
+00:00:07,110 --> 00:00:13,570
 Everything lands on one dashboard — jobs found, your match rate, and where every application stands.
 
 3
-00:00:17,180 --> 00:00:23,410
+00:00:13,930 --> 00:00:19,870
 Plus how your match scores are spread, and your weekly AI spend, so you always know where things stand.
 
 4
-00:00:24,410 --> 00:00:29,520
+00:00:20,330 --> 00:00:25,610
 It all rests on your profile. Drop in your CV, and it fills itself in.
 
 5
-00:00:30,520 --> 00:00:35,870
+00:00:25,870 --> 00:00:30,330
 Search five job boards at once — or paste a job URL straight in.
 
 6
-00:00:36,870 --> 00:00:46,160
-Every job is scored against your profile. And a thin posting gets capped, never oversold — so you know exactly which ones are worth your time.
+00:00:30,730 --> 00:00:39,770
+Or save it in one click, straight from the tab you're already on — the Chrome extension adds any job posting to your pipeline without ever leaving the page.
 
 7
-00:00:47,160 --> 00:00:57,790
-Behind the scenes, DevJobInfo researches the company — and pulls its actual colors and fonts into your materials, so everything looks like it belongs there.
+00:00:40,330 --> 00:00:49,070
+Every job is scored against your profile. And a thin posting gets capped, never oversold — so you know exactly which ones are worth your time.
 
 8
-00:00:58,790 --> 00:01:08,060
-Then a cover letter, written from your real history, in the language of the posting — drawing on your own saved snippets and past letters.
+00:00:49,650 --> 00:00:59,170
+Behind the scenes, DevJobInfo researches the company — and pulls its actual colors and fonts into your materials, so everything looks like it belongs there.
 
 9
-00:01:09,060 --> 00:01:14,430
-A short, AI-written headline tops it off — one click to regenerate it on its own.
+00:00:59,710 --> 00:01:07,370
+Then a cover letter, written from your real history, in the language of the posting — drawing on your own saved snippets and past letters.
 
 10
-00:01:15,430 --> 00:01:19,160
-Nothing invented — only what's actually in your profile.
+00:01:07,750 --> 00:01:12,890
+A short, AI-written headline tops it off — one click to regenerate it on its own.
 
 11
-00:01:20,160 --> 00:01:29,090
-And because it's AI-written, we run it through an AI-detector — then rewrite anything that sounds too robotic, until it sounds like you again.
+00:01:13,470 --> 00:01:16,850
+Nothing invented — only what's actually in your profile.
 
 12
-00:01:30,090 --> 00:01:46,740
-Before you send anything, we simulate how an Applicant Tracking System actually reads it — resume and cover letter both — so nothing gets lost to a bot before a person ever sees it. Regenerate the letter and it automatically fixes what the review flagged.
+00:01:17,210 --> 00:01:25,050
+And because it's AI-written, we run it through an AI-detector — then rewrite anything that sounds too robotic, until it sounds like you again.
 
 13
-00:01:47,740 --> 00:01:52,170
-Add your own motivation for the role, so it never reads like it was written by a bot.
+00:01:25,770 --> 00:01:40,190
+Before you send anything, we simulate how an Applicant Tracking System actually reads it — resume and cover letter both — so nothing gets lost to a bot before a person ever sees it. Regenerate the letter and it automatically fixes what the review flagged.
 
 14
-00:01:53,170 --> 00:02:02,320
-And a resume tailored to this job, reordered around what this employer asked for — including a version built specifically to pass ATS parsing.
+00:01:40,870 --> 00:01:45,130
+Add your own motivation for the role, so it never reads like it was written by a bot.
 
 15
-00:02:03,320 --> 00:02:08,130
-Both download as polished PDFs, ready to send the moment you find the job.
+00:01:45,630 --> 00:01:53,810
+And a resume tailored to this job, reordered around what this employer asked for — including a version built specifically to pass ATS parsing.
 
 16
-00:02:09,130 --> 00:02:20,820
-Every AI feature runs on your own key — Claude, Mistral, OpenAI, Grok, or Gemini, whichever you choose — so there's no subscription, and you're never locked to one provider.
+00:01:54,490 --> 00:01:59,050
+Both download as polished PDFs, ready to send the moment you find the job.
 
 17
-00:02:21,820 --> 00:02:25,810
+00:01:59,790 --> 00:02:14,390
+Every one of eighteen AI features runs on your own key — pick Gemini, Claude, Mistral, OpenAI, or Grok per feature, or let one click set each to whichever's cheapest — so there's no subscription, and you're never locked to one provider.
+
+18
+00:02:14,090 --> 00:02:17,810
 DevJobInfo — devjob dot info.
 
