@@ -67,6 +67,6 @@ Both download as polished PDFs, ready to send the moment you find the job.
 Every one of eighteen AI features runs on your own key — pick Gemini, Claude, Mistral, OpenAI, or Grok per feature, or let one click set each to whichever's cheapest — so there's no subscription, and you're never locked to one provider.
 
 18
-00:02:14,090 --> 00:02:17,810
+00:02:14,600 --> 00:02:18,320
 DevJobInfo — devjob dot info.
 
