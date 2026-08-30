@@ -10,15 +10,20 @@ This is the public showcase for the project — README, architecture notes, walk
 
 ## Walkthrough
 
-<a href="https://friis1978.github.io/devjob-info-public/walkthrough-voiced.mp4"><img src="docs/walkthrough-thumb.jpg" alt="DevJobInfo walkthrough" width="640" /></a>
+<a href="https://friis1978.github.io/devjob-info-public/walkthrough-voiced.mp4?v=20260830d"><img src="docs/walkthrough-thumb.jpg" alt="DevJobInfo walkthrough" width="640" /></a>
 
 Click the thumbnail to watch the ~147-second narrated tour — dashboard, profile, job search and match breakdown, the Chrome extension saving a job in one click, company research with brand-matched theming, a cover letter (built from your own saved snippets, with an AI-written headline, an AI-detection rewrite, and ATS-aware regeneration) and an ATS-reviewed tailored resume, generated live against a real posting. Every AI feature runs on your own API key — no subscription, no lock-in to one provider.
 
 Recorded with Playwright against a seeded demo account, never a real one.
 
-- **Narrated:** [walkthrough-voiced.mp4](https://friis1978.github.io/devjob-info-public/walkthrough-voiced.mp4)
-- **Narrated (dark theme):** [walkthrough-dark-voiced.mp4](https://friis1978.github.io/devjob-info-public/walkthrough-dark-voiced.mp4)
-- **Silent:** [walkthrough.mp4](https://friis1978.github.io/devjob-info-public/walkthrough.mp4)
+<!-- The ?v= query param below is a manual cache-buster — bump it (e.g. to
+today's date + a letter) any time these video files are replaced. GitHub
+Pages/browsers otherwise cache these by filename with no revalidation, so a
+republish can go unnoticed by anyone with a warm cache — this bit a real
+user once already. -->
+- **Narrated:** [walkthrough-voiced.mp4](https://friis1978.github.io/devjob-info-public/walkthrough-voiced.mp4?v=20260830d)
+- **Narrated (dark theme):** [walkthrough-dark-voiced.mp4](https://friis1978.github.io/devjob-info-public/walkthrough-dark-voiced.mp4?v=20260830d)
+- **Silent:** [walkthrough.mp4](https://friis1978.github.io/devjob-info-public/walkthrough.mp4?v=20260830d)
 - **Script** with timecodes: [docs/walkthrough-script.md](docs/walkthrough-script.md)
 - **Subtitles:** [docs/walkthrough.srt](docs/walkthrough.srt)
 
